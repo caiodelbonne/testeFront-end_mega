@@ -1,0 +1,38 @@
+.cabecalho {
+  width: 100%;
+  max-width: 1920px;
+  height: 72px;
+  display: grid;
+  font-size: 20px;
+  background: $fundo-header;
+  color: $cor-branca;
+}
+.cabecalho-nav {
+  text-align: center;
+  margin-left: 10%;
+  display: flex;
+}
+
+.cabecalho-lista {
+  list-style: none;
+  display: flex;
+  float: left;
+  display: inline-flex;
+  align-items: center;
+}
+.barra {
+  width: 10px;
+  height: 27px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.cabecalho-profile {
+  text-align: center;
+  font-size: 16px;
+}
+
+.lista-item {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}

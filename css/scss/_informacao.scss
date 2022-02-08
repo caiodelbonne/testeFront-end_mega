@@ -1,0 +1,49 @@
+.informacao {
+  margin-top: 40px;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.linguagem-release .curso::after {
+  content: " /";
+}
+
+.linguagem-release {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.linguagem-release p + p {
+  margin-bottom: 1 0px;
+}
+.curso2 {
+  color: #0587ff;
+  font-weight: bold;
+}
+
+.dev-descricao {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #989898;
+  margin: 10px auto;
+}
+.inf-classificacao {
+  display: flex;
+}
+.class-star {
+  margin-right: 16px !important;
+}

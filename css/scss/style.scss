@@ -1,0 +1,16 @@
+@import "variaveis";
+
+@import "reset";
+@import "header";
+
+@import "container";
+@import "principal";
+
+@import "informacao";
+
+@import "midia.scss";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

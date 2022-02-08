@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  width: 100vh;
+  max-width: 1980px;
+  grid-template-columns: 30% 30% auto (minmax(100px, 130px)) auto;
+}
+.perfi-img {
+  text-align: center;
+}
+
+.principal {
+  grid-column: 3 / 4;
+  margin-left: 50px;
+}
+
+.perfil {
+  margin-top: 40px;
+  grid-column: 2 / 3;
+}
+
+.perfil-usuario {
+  @include tipo-1(24);
+  text-align: center;
+}
+.perfil-desc {
+  @include tipo-1(16);
+}
+
+.lista-perfil {
+  @include tipo-1(14);
+  margin-top: 32px;
+  line-height: 20px;
+}
+.lista-perfil img {
+  margin-top: 16px;
+}
+.lista-perfil li:hover {
+  cursor: pointer;
+  color: #0058a9;
+  text-decoration: underline;
+}
+.lista-perfil:visited {
+  color: #0058a9;
+}

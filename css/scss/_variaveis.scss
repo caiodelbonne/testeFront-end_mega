@@ -1,0 +1,41 @@
+$fundo-header: #212529;
+$cor-branca: #ffffff;
+
+@mixin tipo-1($tamanho) {
+  @if $tamanho == 14 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0587ff;
+  } @else if $tamanho == 16 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #989898;
+  } @else if $tamanho == 24 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #262626;
+  }
+}
+
+//  principal
+
+@mixin principal($tamanho) {
+  @if $tamanho == 18 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #989898;
+  }
+}

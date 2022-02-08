@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Teste Megazord</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="cabecalho-nav">
+      <ul class="cabecalho-lista">
+        <li class="lista-item"><a href="#"><img src="img/github.svg" width="24" height="24" alt=""></a></li>
+        <li class="lista-item" id="git"><a href="#"><img src="img/escGithub.svg" width='84' height="24" alt=""></a></li>
+        <span class="barra">/</span>
+        <span class="cabecalho-profile">Profile</span>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="perfil">
+      <div class="perfi-img">
+        <img src="img/Group 4.png" alt="foto do usuario">
+      </div>
+      <div>
+        <p class="perfil-usuario">Gabriel Cordeiro</p>
+        <p class="perfil-desc">Head development team Front-End </p>
+        <p class="perfil-desc">Magazord - Tagged (#BZ)</p>
+      </div>
+      <ul class="lista-perfil">
+        <li>
+          <img src="img/mega.svg" width="16" height="16" alt="mega icone">
+          Magazord - plataforma
+        </li>
+        <li>
+          <img src="img/local.svg" width="16" height="16" alt="icone local">
+          Rio do Sul - SC
+        </li>
+        <li>
+          <img src="img/corda.svg" width="10" height="11" alt="corrente icone">
+          Cordas.hub.uok
+        </li>
+        <li>
+          <img src="img/insta.svg" width="16" height="16" alt="instagram">
+          Gabriel.s.cordeiro
+        </li>
+      </ul>
+    </div>
+
+    <div class="principal">
+      <div class="principal-repositorio">
+        <ul class="principal-lista ">
+          <li class="principal-lista-item" id="itemaitvaRep">
+            <img src="img/bx_bx-book-bookmark.svg" width="24" height="24" alt="">
+            <span><a href="#" class="lista-ref" id="repositories">Repositories</a></span>
+            <span class="item-marcador">81</span>
+          </li>
+          <li class="principal-lista-item" id="itemaitvaStar">
+            <img src="img/estrela.svg" width="24" height="24" alt="">
+            <span><a href="" class="lista-ref" id="starred">Starred</a></span>
+            <span class="item-marcador">12</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="busca">
+        <div>
+          <img src="img/lupa.svg" alt="">
+          <input type="search" placeholder="Search Here" class="search">
+        </div>
+        <!-- inicio drop btn type -->
+
+        <div class="teste">
+          <div class="dropdown">
+            <button id="btn-type" type="button" name="btntype" class="btn-type">Type</button>
+            <div class="dropdown-content">
+              <form action="" class="form-type drop-down">
+                <div>
+                  <input type="checkbox" id="all" type="checkbox" checked>
+                  <label for="all">ALL</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="sources" type="checkbox">
+                  <label for="sources">sources</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="forks" type="checkbox">
+                  <label for="forks">forks</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="archived" type="checkbox">
+                  <label for="archived">archived</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="mirrors" type="checkbox">
+                  <label for="mirrors">mirrors</label>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button type="button" name="btnlanguage" class="btn-language">Language</button>
+            <div class="dropdown-content">
+              <form class="form-language">
+                <div>
+                  <input type="checkbox" id="all-language" type="checkbox" checked>
+                  <label for="all-language">ALL</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="java" type="checkbox">
+                  <label for="java">Java</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="typescript" type="checkbox">
+                  <label for="typescript">typescript</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="html" type="checkbox">
+                  <label for="html">html</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="css" type="checkbox">
+                  <label for="css">css</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- descriçao dos cursos  -->
+      <section class="informacao">
+        <div class="linguagem-release">
+          <p class="dev"><span class="curso">node</span><span class="curso2"> Release</span></p>
+          <p class="dev-descricao">Node.js Foundation Release Working Group.</p>
+          <div class="inf-classificacao">
+            <div class="class-star">
+              <img src="img/estrelaP.svg" alt="estrela">
+              <span>1.569</span>
+            </div>
+            <div>
+              <img src="img/acess.svg" alt="">
+              <span>142</span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="linguagem-release">
+          <p class="dev"><span class="curso">Cordeiro</span> <span class="curso2"> Angular</span></p>
+          <p class="dev-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis vel etiam tellus velit pellentesque scelerisque ut risus.</p>
+          <div class="inf-classificacao">
+            <div class="class-star">
+              <img src="img/estrelaP.svg" alt="estrela">
+              <span>726</span>
+            </div>
+            <div>
+              <img src="img/acess.svg" alt="">
+              <span>91</span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="linguagem-release">
+          <p class="dev"><span class="curso">node</span> <span class="curso2"> Release</span></p>
+          <p class="dev-descricao">Node.js Foundation Release Working Group.</p>
+          <div class="inf-classificacao">
+            <div class="class-star">
+              <img src="img/estrelaP.svg" alt="estrela">
+              <span>9.327</span>
+            </div>
+            <div>
+              <img src="img/acess.svg" alt="">
+              <span>562</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+  <script src="js/clicar.js"></script>
+</body>
+
+</html>
